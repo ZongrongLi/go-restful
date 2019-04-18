@@ -11,9 +11,9 @@ import (
 func Load(s server.RPCServer) {
 	// Middlewares.
 
-	s.Use(middleware.TestMiddleware1)
-	s.Use(middleware.TestMiddleware2)
-	s.Use(middleware.TestMiddleware3)
+	s.Use(middleware.NoCache)
+	s.Use(middleware.Options)
+	s.Use(middleware.Secure)
 
 	// The health check handlers
 	svcd := s.Group(service.GET, "/view")
