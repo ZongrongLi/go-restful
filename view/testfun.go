@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/golang/glog"
+	"github.com/lexkong/log"
 
 	"github.com/shirou/gopsutil/cpu"
 	"github.com/shirou/gopsutil/disk"
@@ -26,7 +26,7 @@ const (
 func HealthCheck(ctx context.Context, resp *service.Resp) {
 	fmt.Println("health check")
 	message := "OK"
-	glog.Info("ok")
+	log.Info("ok")
 	resp.Add("status", message)
 }
 
@@ -51,7 +51,7 @@ func DiskCheck(ctx context.Context, resp *service.Resp) {
 		text = "WARNING"
 	}
 
-	glog.Infof("%s - Free space: %dMB (%dGB) / %dMB (%dGB) | Used: %d%% status:%d", text, usedMB, usedGB, totalMB, totalGB, usedPercent, status)
+	log.Infof("%s - Free space: %dMB (%dGB) / %dMB (%dGB) | Used: %d%% status:%d", text, usedMB, usedGB, totalMB, totalGB, usedPercent, status)
 	resp.Add("disk_status", text)
 	resp.Add("Free_space(MB)", strconv.FormatInt(usedMB, 10))
 	resp.Add("total_space(MB)", strconv.FormatInt(totalMB, 10))
@@ -78,7 +78,7 @@ func CPUCheck(ctx context.Context, resp *service.Resp) {
 		text = "WARNING"
 	}
 
-	glog.Infof("%s - Load average: %.2f, %.2f, %.2f | Cores: %d status:%d", text, l1, l5, l15, cores, status)
+	log.Infof("%s - Load average: %.2f, %.2f, %.2f | Cores: %d status:%d", text, l1, l5, l15, cores, status)
 
 	resp.Add("cpu_status", text)
 	resp.Add("Load_average_l1", strconv.FormatFloat(l1, 'f', 2, 64))
@@ -108,7 +108,7 @@ func RAMCheck(ctx context.Context, resp *service.Resp) {
 		text = "WARNING"
 	}
 
-	glog.Infof("%s - Free space: %dMB (%dGB) / %dMB (%dGB) | Used: %d%% status: %d", text, usedMB, usedGB, totalMB, totalGB, usedPercent, status)
+	log.Infof("%s - Free space: %dMB (%dGB) / %dMB (%dGB) | Used: %d%% status: %d", text, usedMB, usedGB, totalMB, totalGB, usedPercent, status)
 	resp.Add("ram_status", text)
 	resp.Add("Free_space(MB)", strconv.FormatInt(usedMB, 10))
 	resp.Add("total_space(MB)", strconv.FormatInt(totalMB, 10))

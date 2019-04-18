@@ -3,7 +3,6 @@ port: 5080                  # HTTP绑定端口
 name: goapi              # API Server的名字
 httpurl: http://127.0.0.1:5080   # pingServer函数请求的API服务器的ip:port
 tcpurl: 127.0.0.1:8888
-max_ping_count: 10           # pingServer函数try的次数
 idc: lf
 
 discovery:
@@ -12,4 +11,15 @@ discovery:
   path: /root/lizongrong/service
   nodes: 127.0.0.1:1181,127.0.0.1:2181,127.0.0.1:3181
   updateinterval: 1e10
+
+log:
+  writers: file,stdout
+  logger_level: DEBUG
+  logger_file: log/goapi.log
+  log_format_text: false
+  rollingPolicy: size ##日志转存策略
+  log_rotate_date: 1
+  log_rotate_size: 1 #日志转存1m
+  log_backup_count: 7
+
 

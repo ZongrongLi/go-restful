@@ -2,11 +2,12 @@ package main
 
 import (
 	"errors"
-	"log"
 	"net/http"
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/lexkong/log"
 
 	"github.com/docker/libkv/store"
 	"github.com/golang/glog"
@@ -42,15 +43,12 @@ func main() {
 	if viper.GetString("discovery.name") == "zk" {
 		nodes := viper.GetString("discovery.nodes")
 		zknode := strings.Split(nodes, ",")
-		glog.Info("======================================znode", zknode)
+		log.Infof("======================================znode %+v", zknode)
 		interval, err := strconv.ParseFloat(viper.GetString("discovery.updateinterval"), 64)
 		if err != nil {
-			glog.Info("parse interval err: ", err)
+			log.Infof("parse interval err: %s", err)
 			interval = 1e10
 		}
-
-		glog.Info("===================================================", viper.GetString("discovery.server_name"), viper.GetString("discovery.path"),
-			zknode, time.Duration(interval))
 
 		r1 = libkv.NewKVRegistry(store.ZK, viper.GetString("discovery.server_name"), viper.GetString("discovery.path"),
 			zknode, time.Duration(interval), nil)
@@ -62,7 +60,7 @@ func main() {
 
 	port, err := strconv.ParseInt(viper.GetString("port"), 10, 64)
 	if err != nil {
-		glog.Info("parse port err: ", err)
+		log.Infof("parse port err: %s", err)
 		return
 	}
 
@@ -84,7 +82,7 @@ func main() {
 		if err := pingServer(); err != nil {
 			log.Fatal("The router has no response, or it might took too long to start up.", err)
 		}
-		glog.Info("The router has been deployed successfully.")
+		log.Info("The router has been deployed successfully.")
 	}()
 
 	time.Sleep(time.Second * 1000)
@@ -97,17 +95,17 @@ func pingServer() error {
 		// Ping the server by sending a GET request to `/health`.
 		resp, err := http.Get(viper.GetString("httpurl") + "/view/health")
 		if err != nil {
-			glog.Info("===================================get error")
+			log.Info("get error")
 			return err
 		}
 
 		if resp.StatusCode != 200 {
-			glog.Info("===================================http error statuscode:", resp.StatusCode)
+			log.Infof("http error statuscode:%d", resp.StatusCode)
 			return nil
 		}
 
 		// Sleep for a second to continue the next ping.
-		glog.Info("Waiting for the router, retry in 1 second.")
+		log.Info("Waiting for the router, retry in 1 second.")
 		time.Sleep(time.Second)
 	}
 	return errors.New("Cannot connect to the router.")
