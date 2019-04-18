@@ -40,6 +40,7 @@ func main() {
 		Registry:       r1,
 		RegisterOption: registry.RegisterOption{"my-app"},
 		Tags:           map[string]string{"idc": "lf"}, //只允许机房为lf的请求，客户端取到信息会自己进行转移
+		HttpServePort:  5080,
 	}
 
 	StartServer(&servertOption)
