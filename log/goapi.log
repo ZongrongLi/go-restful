@@ -22,3 +22,185 @@
 {"level":"INFO","timestamp":"2019-04-19 01:30:29.217","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second."}
 {"level":"INFO","timestamp":"2019-04-19 01:30:30.218","file":"view/testfun.go:29","msg":"ok"}
 {"level":"INFO","timestamp":"2019-04-19 01:30:30.218","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-19 01:33:34.154","file":"model/init.go:30","msg":"======================================%!(EXTRA string=root, string= , string=123, string=127.0.0.1:3306, string=db_goapi)"}
+{"level":"INFO","timestamp":"2019-04-19 01:33:34.156","file":"model/init.go:30","msg":"======================================%!(EXTRA string=root, string= , string=123, string=127.0.0.1:3306, string=db_goapi)"}
+{"level":"INFO","timestamp":"2019-04-19 01:33:34.157","file":"go-restful/main.go:51","msg":"======================================znode [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-19 01:33:34.675","file":"view/testfun.go:29","msg":"ok"}
+{"level":"INFO","timestamp":"2019-04-19 01:33:34.675","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-19 01:33:35.676","file":"view/testfun.go:29","msg":"ok"}
+{"level":"INFO","timestamp":"2019-04-19 01:33:35.677","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-19 01:33:36.678","file":"view/testfun.go:29","msg":"ok"}
+{"level":"INFO","timestamp":"2019-04-19 01:33:36.678","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-19 01:33:37.679","file":"view/testfun.go:29","msg":"ok"}
+{"level":"INFO","timestamp":"2019-04-19 01:33:37.679","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-19 01:33:38.681","file":"view/testfun.go:29","msg":"ok"}
+{"level":"INFO","timestamp":"2019-04-19 01:33:38.681","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-19 01:33:39.682","file":"view/testfun.go:29","msg":"ok"}
+{"level":"INFO","timestamp":"2019-04-19 01:33:39.683","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-19 01:33:40.684","file":"view/testfun.go:29","msg":"ok"}
+{"level":"INFO","timestamp":"2019-04-19 01:33:40.684","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-19 01:33:41.686","file":"view/testfun.go:29","msg":"ok"}
+{"level":"INFO","timestamp":"2019-04-19 01:33:41.686","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-19 01:33:42.688","file":"view/testfun.go:29","msg":"ok"}
+{"level":"INFO","timestamp":"2019-04-19 01:33:42.688","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-19 01:33:43.689","file":"view/testfun.go:29","msg":"ok"}
+{"level":"INFO","timestamp":"2019-04-19 01:33:43.690","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-19 01:33:44.691","file":"view/testfun.go:29","msg":"ok"}
+{"level":"INFO","timestamp":"2019-04-19 01:33:44.691","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-19 01:33:45.692","file":"view/testfun.go:29","msg":"ok"}
+{"level":"INFO","timestamp":"2019-04-19 01:33:45.692","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-19 01:33:46.694","file":"view/testfun.go:29","msg":"ok"}
+{"level":"INFO","timestamp":"2019-04-19 01:33:46.694","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-19 01:33:47.696","file":"view/testfun.go:29","msg":"ok"}
+{"level":"INFO","timestamp":"2019-04-19 01:33:47.696","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-19 01:33:48.698","file":"view/testfun.go:29","msg":"ok"}
+{"level":"INFO","timestamp":"2019-04-19 01:33:48.698","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-19 01:33:49.700","file":"view/testfun.go:29","msg":"ok"}
+{"level":"INFO","timestamp":"2019-04-19 01:33:49.700","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-19 01:33:50.701","file":"view/testfun.go:29","msg":"ok"}
+{"level":"INFO","timestamp":"2019-04-19 01:33:50.701","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-19 01:33:51.703","file":"view/testfun.go:29","msg":"ok"}
+{"level":"INFO","timestamp":"2019-04-19 01:33:51.704","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-19 01:33:52.706","file":"view/testfun.go:29","msg":"ok"}
+{"level":"INFO","timestamp":"2019-04-19 01:33:52.706","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-19 01:33:53.707","file":"view/testfun.go:29","msg":"ok"}
+{"level":"INFO","timestamp":"2019-04-19 01:33:53.707","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-19 01:33:54.708","file":"view/testfun.go:29","msg":"ok"}
+{"level":"INFO","timestamp":"2019-04-19 01:33:54.709","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-19 01:33:55.710","file":"view/testfun.go:29","msg":"ok"}
+{"level":"INFO","timestamp":"2019-04-19 01:33:55.711","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-19 01:33:56.712","file":"view/testfun.go:29","msg":"ok"}
+{"level":"INFO","timestamp":"2019-04-19 01:33:56.713","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-19 01:33:57.713","file":"view/testfun.go:29","msg":"ok"}
+{"level":"INFO","timestamp":"2019-04-19 01:33:57.714","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-19 01:33:58.715","file":"view/testfun.go:29","msg":"ok"}
+{"level":"INFO","timestamp":"2019-04-19 01:33:58.715","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-19 01:33:59.716","file":"view/testfun.go:29","msg":"ok"}
+{"level":"INFO","timestamp":"2019-04-19 01:33:59.717","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-19 01:34:00.719","file":"view/testfun.go:29","msg":"ok"}
+{"level":"INFO","timestamp":"2019-04-19 01:34:00.719","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-19 01:34:01.720","file":"view/testfun.go:29","msg":"ok"}
+{"level":"INFO","timestamp":"2019-04-19 01:34:01.720","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-19 01:34:02.722","file":"view/testfun.go:29","msg":"ok"}
+{"level":"INFO","timestamp":"2019-04-19 01:34:02.722","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-19 01:34:03.724","file":"view/testfun.go:29","msg":"ok"}
+{"level":"INFO","timestamp":"2019-04-19 01:34:03.724","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-19 01:34:04.726","file":"view/testfun.go:29","msg":"ok"}
+{"level":"INFO","timestamp":"2019-04-19 01:34:04.727","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-19 01:34:05.728","file":"view/testfun.go:29","msg":"ok"}
+{"level":"INFO","timestamp":"2019-04-19 01:34:05.728","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-19 01:34:06.731","file":"view/testfun.go:29","msg":"ok"}
+{"level":"INFO","timestamp":"2019-04-19 01:34:06.731","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-19 01:34:07.733","file":"view/testfun.go:29","msg":"ok"}
+{"level":"INFO","timestamp":"2019-04-19 01:34:07.733","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-19 01:34:08.735","file":"view/testfun.go:29","msg":"ok"}
+{"level":"INFO","timestamp":"2019-04-19 01:34:08.736","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-19 01:34:09.737","file":"view/testfun.go:29","msg":"ok"}
+{"level":"INFO","timestamp":"2019-04-19 01:34:09.738","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-19 01:34:10.739","file":"view/testfun.go:29","msg":"ok"}
+{"level":"INFO","timestamp":"2019-04-19 01:34:10.740","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-19 01:34:11.741","file":"view/testfun.go:29","msg":"ok"}
+{"level":"INFO","timestamp":"2019-04-19 01:34:11.742","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-19 01:34:12.743","file":"view/testfun.go:29","msg":"ok"}
+{"level":"INFO","timestamp":"2019-04-19 01:34:12.744","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-19 01:34:13.745","file":"view/testfun.go:29","msg":"ok"}
+{"level":"INFO","timestamp":"2019-04-19 01:34:13.745","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-19 01:34:14.747","file":"view/testfun.go:29","msg":"ok"}
+{"level":"INFO","timestamp":"2019-04-19 01:34:14.747","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-19 01:34:15.749","file":"view/testfun.go:29","msg":"ok"}
+{"level":"INFO","timestamp":"2019-04-19 01:34:15.749","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-19 01:34:16.751","file":"view/testfun.go:29","msg":"ok"}
+{"level":"INFO","timestamp":"2019-04-19 01:34:16.751","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-19 01:34:17.753","file":"view/testfun.go:29","msg":"ok"}
+{"level":"INFO","timestamp":"2019-04-19 01:34:17.753","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-19 01:34:18.754","file":"view/testfun.go:29","msg":"ok"}
+{"level":"INFO","timestamp":"2019-04-19 01:34:18.754","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-19 01:34:19.755","file":"view/testfun.go:29","msg":"ok"}
+{"level":"INFO","timestamp":"2019-04-19 01:34:19.755","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-19 01:34:20.757","file":"view/testfun.go:29","msg":"ok"}
+{"level":"INFO","timestamp":"2019-04-19 01:34:20.757","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-19 01:34:21.758","file":"view/testfun.go:29","msg":"ok"}
+{"level":"INFO","timestamp":"2019-04-19 01:34:21.758","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-19 01:34:22.760","file":"view/testfun.go:29","msg":"ok"}
+{"level":"INFO","timestamp":"2019-04-19 01:34:22.760","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-19 01:34:23.762","file":"view/testfun.go:29","msg":"ok"}
+{"level":"INFO","timestamp":"2019-04-19 01:34:23.762","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-19 01:34:24.763","file":"view/testfun.go:29","msg":"ok"}
+{"level":"INFO","timestamp":"2019-04-19 01:34:24.764","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-19 01:34:25.765","file":"view/testfun.go:29","msg":"ok"}
+{"level":"INFO","timestamp":"2019-04-19 01:34:25.766","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-19 01:34:26.768","file":"view/testfun.go:29","msg":"ok"}
+{"level":"INFO","timestamp":"2019-04-19 01:34:26.768","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-19 01:34:27.770","file":"view/testfun.go:29","msg":"ok"}
+{"level":"INFO","timestamp":"2019-04-19 01:34:27.770","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-19 01:34:28.772","file":"view/testfun.go:29","msg":"ok"}
+{"level":"INFO","timestamp":"2019-04-19 01:34:28.773","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-19 01:34:29.774","file":"view/testfun.go:29","msg":"ok"}
+{"level":"INFO","timestamp":"2019-04-19 01:34:29.774","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-19 01:34:30.776","file":"view/testfun.go:29","msg":"ok"}
+{"level":"INFO","timestamp":"2019-04-19 01:34:30.776","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-19 01:34:31.616","file":"view/testfun.go:54","msg":"OK - Free space: 0MB (0GB) / 242988MB (237GB) | Used: 0% status:200"}
+{"level":"INFO","timestamp":"2019-04-19 01:34:31.778","file":"view/testfun.go:29","msg":"ok"}
+{"level":"INFO","timestamp":"2019-04-19 01:34:31.778","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-19 01:34:32.779","file":"view/testfun.go:29","msg":"ok"}
+{"level":"INFO","timestamp":"2019-04-19 01:34:32.780","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-19 01:34:33.781","file":"view/testfun.go:29","msg":"ok"}
+{"level":"INFO","timestamp":"2019-04-19 01:34:33.781","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-19 01:34:34.783","file":"view/testfun.go:29","msg":"ok"}
+{"level":"INFO","timestamp":"2019-04-19 01:34:34.783","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-19 01:34:35.785","file":"view/testfun.go:29","msg":"ok"}
+{"level":"INFO","timestamp":"2019-04-19 01:34:35.785","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-19 01:34:36.786","file":"view/testfun.go:29","msg":"ok"}
+{"level":"INFO","timestamp":"2019-04-19 01:34:36.787","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-19 01:34:37.789","file":"view/testfun.go:29","msg":"ok"}
+{"level":"INFO","timestamp":"2019-04-19 01:34:37.789","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-19 01:34:38.791","file":"view/testfun.go:29","msg":"ok"}
+{"level":"INFO","timestamp":"2019-04-19 01:34:38.791","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-19 01:34:39.793","file":"view/testfun.go:29","msg":"ok"}
+{"level":"INFO","timestamp":"2019-04-19 01:34:39.794","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-19 01:34:40.795","file":"view/testfun.go:29","msg":"ok"}
+{"level":"INFO","timestamp":"2019-04-19 01:34:40.795","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-19 01:34:41.799","file":"view/testfun.go:29","msg":"ok"}
+{"level":"INFO","timestamp":"2019-04-19 01:34:41.799","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-19 01:34:42.800","file":"view/testfun.go:29","msg":"ok"}
+{"level":"INFO","timestamp":"2019-04-19 01:34:42.801","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-19 01:34:43.802","file":"view/testfun.go:29","msg":"ok"}
+{"level":"INFO","timestamp":"2019-04-19 01:34:43.802","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-19 01:34:44.803","file":"view/testfun.go:29","msg":"ok"}
+{"level":"INFO","timestamp":"2019-04-19 01:34:44.804","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-19 01:34:45.806","file":"view/testfun.go:29","msg":"ok"}
+{"level":"INFO","timestamp":"2019-04-19 01:34:45.807","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-19 01:34:46.808","file":"view/testfun.go:29","msg":"ok"}
+{"level":"INFO","timestamp":"2019-04-19 01:34:46.808","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-19 02:25:45.985","file":"model/init.go:30","msg":"======================================%!(EXTRA string=root, string= , string=123, string=127.0.0.1:3306, string=db_goapi)"}
+{"level":"INFO","timestamp":"2019-04-19 02:25:45.994","file":"model/init.go:30","msg":"======================================%!(EXTRA string=root, string= , string=123, string=127.0.0.1:3306, string=db_goapi)"}
+{"level":"INFO","timestamp":"2019-04-19 02:25:45.995","file":"go-restful/main.go:51","msg":"======================================znode [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-19 02:25:46.519","file":"view/check.go:31","msg":"ok"}
+{"level":"INFO","timestamp":"2019-04-19 02:25:46.519","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-19 02:25:47.520","file":"view/check.go:31","msg":"ok"}
+{"level":"INFO","timestamp":"2019-04-19 02:25:47.521","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-19 02:25:48.522","file":"view/check.go:31","msg":"ok"}
+{"level":"INFO","timestamp":"2019-04-19 02:25:48.522","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-19 02:25:49.523","file":"view/check.go:31","msg":"ok"}
+{"level":"INFO","timestamp":"2019-04-19 02:25:49.523","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-19 02:25:50.525","file":"view/check.go:31","msg":"ok"}
+{"level":"INFO","timestamp":"2019-04-19 02:25:50.525","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-19 02:27:52.998","file":"model/init.go:30","msg":"======================================%!(EXTRA string=root, string= , string=123, string=127.0.0.1:3306, string=db_goapi)"}
+{"level":"INFO","timestamp":"2019-04-19 02:27:53.000","file":"model/init.go:30","msg":"======================================%!(EXTRA string=root, string= , string=123, string=127.0.0.1:3306, string=db_goapi)"}
+{"level":"INFO","timestamp":"2019-04-19 02:27:53.002","file":"go-restful/main.go:51","msg":"======================================znode [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-19 02:27:53.515","file":"view/check.go:31","msg":"ok"}
+{"level":"INFO","timestamp":"2019-04-19 02:27:53.515","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second.  \u0026{Status:200 OK StatusCode:200 Proto:HTTP/1.1 ProtoMajor:1 ProtoMinor:1 Header:map[Cache-Control:[no-cache, no-store, max-age=0, must-revalidate, value] X-Xss-Protection:[1; mode=block] Content-Type:[text/plain; charset=utf-8] Date:[Thu, 18 Apr 2019 18:27:53 GMT] Content-Length:[53] Access-Control-Allow-Origin:[*] Expires:[Thu, 01 Jan 1970 00:00:00 GMT] Last-Modified:[Thu, 18 Apr 2019 18:27:53 GMT] X-Content-Type-Options:[nosniff] X-Frame-Options:[DENY]] Body:0xc42002e2c0 ContentLength:53 TransferEncoding:[] Close:false Uncompressed:false Trailer:map[] Request:0xc42013a100 TLS:\u003cnil\u003e}"}
+{"level":"INFO","timestamp":"2019-04-19 02:27:54.517","file":"view/check.go:31","msg":"ok"}
+{"level":"INFO","timestamp":"2019-04-19 02:27:54.517","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second.  \u0026{Status:200 OK StatusCode:200 Proto:HTTP/1.1 ProtoMajor:1 ProtoMinor:1 Header:map[Content-Length:[53] Content-Type:[text/plain; charset=utf-8] Access-Control-Allow-Origin:[*] Cache-Control:[no-cache, no-store, max-age=0, must-revalidate, value] Last-Modified:[Thu, 18 Apr 2019 18:27:54 GMT] X-Xss-Protection:[1; mode=block] Date:[Thu, 18 Apr 2019 18:27:54 GMT] Expires:[Thu, 01 Jan 1970 00:00:00 GMT] X-Content-Type-Options:[nosniff] X-Frame-Options:[DENY]] Body:0xc420234540 ContentLength:53 TransferEncoding:[] Close:false Uncompressed:false Trailer:map[] Request:0xc420548100 TLS:\u003cnil\u003e}"}
+{"level":"INFO","timestamp":"2019-04-19 02:27:55.518","file":"view/check.go:31","msg":"ok"}
+{"level":"INFO","timestamp":"2019-04-19 02:27:55.519","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second.  \u0026{Status:200 OK StatusCode:200 Proto:HTTP/1.1 ProtoMajor:1 ProtoMinor:1 Header:map[X-Frame-Options:[DENY] Content-Length:[53] Content-Type:[text/plain; charset=utf-8] Access-Control-Allow-Origin:[*] Expires:[Thu, 01 Jan 1970 00:00:00 GMT] Last-Modified:[Thu, 18 Apr 2019 18:27:55 GMT] X-Content-Type-Options:[nosniff] Cache-Control:[no-cache, no-store, max-age=0, must-revalidate, value] X-Xss-Protection:[1; mode=block] Date:[Thu, 18 Apr 2019 18:27:55 GMT]] Body:0xc420234780 ContentLength:53 TransferEncoding:[] Close:false Uncompressed:false Trailer:map[] Request:0xc42013a400 TLS:\u003cnil\u003e}"}
+{"level":"INFO","timestamp":"2019-04-19 02:27:56.520","file":"view/check.go:31","msg":"ok"}
+{"level":"INFO","timestamp":"2019-04-19 02:27:56.520","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second.  \u0026{Status:200 OK StatusCode:200 Proto:HTTP/1.1 ProtoMajor:1 ProtoMinor:1 Header:map[X-Content-Type-Options:[nosniff] X-Frame-Options:[DENY] X-Xss-Protection:[1; mode=block] Content-Length:[53] Content-Type:[text/plain; charset=utf-8] Cache-Control:[no-cache, no-store, max-age=0, must-revalidate, value] Expires:[Thu, 01 Jan 1970 00:00:00 GMT] Date:[Thu, 18 Apr 2019 18:27:56 GMT] Access-Control-Allow-Origin:[*] Last-Modified:[Thu, 18 Apr 2019 18:27:56 GMT]] Body:0xc42002e980 ContentLength:53 TransferEncoding:[] Close:false Uncompressed:false Trailer:map[] Request:0xc42032a200 TLS:\u003cnil\u003e}"}
+{"level":"INFO","timestamp":"2019-04-19 02:27:57.521","file":"view/check.go:31","msg":"ok"}
+{"level":"INFO","timestamp":"2019-04-19 02:27:57.522","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second.  \u0026{Status:200 OK StatusCode:200 Proto:HTTP/1.1 ProtoMajor:1 ProtoMinor:1 Header:map[Content-Length:[53] Cache-Control:[no-cache, no-store, max-age=0, must-revalidate, value] Expires:[Thu, 01 Jan 1970 00:00:00 GMT] Last-Modified:[Thu, 18 Apr 2019 18:27:57 GMT] Date:[Thu, 18 Apr 2019 18:27:57 GMT] Content-Type:[text/plain; charset=utf-8] Access-Control-Allow-Origin:[*] X-Content-Type-Options:[nosniff] X-Frame-Options:[DENY] X-Xss-Protection:[1; mode=block]] Body:0xc4202ecbc0 ContentLength:53 TransferEncoding:[] Close:false Uncompressed:false Trailer:map[] Request:0xc420548600 TLS:\u003cnil\u003e}"}
+{"level":"INFO","timestamp":"2019-04-19 02:27:58.523","file":"view/check.go:31","msg":"ok"}
+{"level":"INFO","timestamp":"2019-04-19 02:27:58.523","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second.  \u0026{Status:200 OK StatusCode:200 Proto:HTTP/1.1 ProtoMajor:1 ProtoMinor:1 Header:map[Last-Modified:[Thu, 18 Apr 2019 18:27:58 GMT] X-Content-Type-Options:[nosniff] X-Xss-Protection:[1; mode=block] Content-Length:[53] Content-Type:[text/plain; charset=utf-8] Access-Control-Allow-Origin:[*] Cache-Control:[no-cache, no-store, max-age=0, must-revalidate, value] Date:[Thu, 18 Apr 2019 18:27:58 GMT] Expires:[Thu, 01 Jan 1970 00:00:00 GMT] X-Frame-Options:[DENY]] Body:0xc42002ea80 ContentLength:53 TransferEncoding:[] Close:false Uncompressed:false Trailer:map[] Request:0xc420548800 TLS:\u003cnil\u003e}"}
+{"level":"INFO","timestamp":"2019-04-19 02:27:59.525","file":"view/check.go:31","msg":"ok"}
+{"level":"INFO","timestamp":"2019-04-19 02:27:59.525","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second.  \u0026{Status:200 OK StatusCode:200 Proto:HTTP/1.1 ProtoMajor:1 ProtoMinor:1 Header:map[Cache-Control:[no-cache, no-store, max-age=0, must-revalidate, value] Last-Modified:[Thu, 18 Apr 2019 18:27:59 GMT] X-Content-Type-Options:[nosniff] X-Frame-Options:[DENY] X-Xss-Protection:[1; mode=block] Date:[Thu, 18 Apr 2019 18:27:59 GMT] Access-Control-Allow-Origin:[*] Expires:[Thu, 01 Jan 1970 00:00:00 GMT] Content-Length:[53] Content-Type:[text/plain; charset=utf-8]] Body:0xc4202d4100 ContentLength:53 TransferEncoding:[] Close:false Uncompressed:false Trailer:map[] Request:0xc42032a300 TLS:\u003cnil\u003e}"}
+{"level":"INFO","timestamp":"2019-04-19 02:28:00.526","file":"view/check.go:31","msg":"ok"}
+{"level":"INFO","timestamp":"2019-04-19 02:28:00.526","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second.  \u0026{Status:200 OK StatusCode:200 Proto:HTTP/1.1 ProtoMajor:1 ProtoMinor:1 Header:map[X-Xss-Protection:[1; mode=block] Date:[Thu, 18 Apr 2019 18:28:00 GMT] Cache-Control:[no-cache, no-store, max-age=0, must-revalidate, value] Expires:[Thu, 01 Jan 1970 00:00:00 GMT] Last-Modified:[Thu, 18 Apr 2019 18:28:00 GMT] Content-Length:[53] Content-Type:[text/plain; charset=utf-8] Access-Control-Allow-Origin:[*] X-Content-Type-Options:[nosniff] X-Frame-Options:[DENY]] Body:0xc42002ef40 ContentLength:53 TransferEncoding:[] Close:false Uncompressed:false Trailer:map[] Request:0xc42032a500 TLS:\u003cnil\u003e}"}

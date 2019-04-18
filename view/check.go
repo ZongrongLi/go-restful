@@ -12,6 +12,7 @@ import (
 	"github.com/shirou/gopsutil/disk"
 	"github.com/shirou/gopsutil/load"
 	"github.com/shirou/gopsutil/mem"
+	"github.com/tiancai110a/go-restful/pkg/errno"
 	"github.com/tiancai110a/go-rpc/service"
 )
 
@@ -24,10 +25,14 @@ const (
 
 // HealthCheck shows `OK` as the ping-pong result.
 func HealthCheck(ctx context.Context, resp *service.Resp) {
+	err := errno.OK
 	fmt.Println("health check")
 	message := "OK"
 	log.Info("ok")
 	resp.Add("status", message)
+	errnum := 0
+	errnum, resp.ErrString = errno.DecodeErr(err)
+	resp.Errcode = (service.HTTPErrCode)(errnum)
 }
 
 // DiskCheck checks the disk usage.
