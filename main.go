@@ -4,10 +4,14 @@ import (
 	"errors"
 	"log"
 	"net/http"
+	"strconv"
+	"strings"
 	"time"
 
 	"github.com/docker/libkv/store"
 	"github.com/golang/glog"
+	"github.com/spf13/viper"
+	"github.com/tiancai110a/go-restful/config"
 	"github.com/tiancai110a/go-restful/router"
 	"github.com/tiancai110a/go-rpc/protocol"
 	"github.com/tiancai110a/go-rpc/registry"
@@ -24,13 +28,44 @@ func StartServer(op *server.Option) {
 			return
 		}
 		router.Load(s)
-		go s.Serve("tcp", "127.0.0.1:8888", nil)
+		go s.Serve("tcp", viper.GetString("tcpurl"), nil)
 	}()
 }
 
 func main() {
-	r1 := libkv.NewKVRegistry(store.ZK, "my-app", "/root/lizongrong/service",
-		[]string{"127.0.0.1:1181", "127.0.0.1:2181", "127.0.0.1:3181"}, 1e10, nil)
+
+	if err := config.Init(""); err != nil {
+		panic(err)
+	}
+
+	var r1 registry.Registry
+	if viper.GetString("discovery.name") == "zk" {
+		nodes := viper.GetString("discovery.nodes")
+		zknode := strings.Split(nodes, ",")
+		glog.Info("======================================znode", zknode)
+		interval, err := strconv.ParseFloat(viper.GetString("discovery.updateinterval"), 64)
+		if err != nil {
+			glog.Info("parse interval err: ", err)
+			interval = 1e10
+		}
+
+		glog.Info("===================================================", viper.GetString("discovery.server_name"), viper.GetString("discovery.path"),
+			zknode, time.Duration(interval))
+
+		r1 = libkv.NewKVRegistry(store.ZK, viper.GetString("discovery.server_name"), viper.GetString("discovery.path"),
+			zknode, time.Duration(interval), nil)
+
+	} else {
+		glog.Error("discovery is not set")
+		return
+	}
+
+	port, err := strconv.ParseInt(viper.GetString("port"), 10, 64)
+	if err != nil {
+		glog.Info("parse port err: ", err)
+		return
+	}
+
 	servertOption := server.Option{
 		ProtocolType:   protocol.Default,
 		SerializeType:  protocol.SerializeTypeMsgpack,
@@ -38,9 +73,9 @@ func main() {
 		TransportType:  transport.TCPTransport,
 		ShutDownWait:   time.Second * 12,
 		Registry:       r1,
-		RegisterOption: registry.RegisterOption{"my-app"},
-		Tags:           map[string]string{"idc": "lf"}, //只允许机房为lf的请求，客户端取到信息会自己进行转移
-		HttpServePort:  5080,
+		RegisterOption: registry.RegisterOption{viper.GetString("discovery.server_name")},
+		Tags:           map[string]string{"idc": viper.GetString("idc")}, //只允许机房为lf的请求，客户端取到信息会自己进行转移
+		HttpServePort:  int(port),
 	}
 
 	StartServer(&servertOption)
@@ -60,7 +95,7 @@ func main() {
 func pingServer() error {
 	for i := 0; i < 200; i++ {
 		// Ping the server by sending a GET request to `/health`.
-		resp, err := http.Get("http://127.0.0.1:5080" + "/view/health")
+		resp, err := http.Get(viper.GetString("httpurl") + "/view/health")
 		if err != nil {
 			glog.Info("===================================get error")
 			return err
