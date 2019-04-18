@@ -1,8 +1,10 @@
 package config
 
 import (
+	"log"
 	"strings"
 
+	"github.com/fsnotify/fsnotify"
 	"github.com/spf13/viper"
 )
 
@@ -19,6 +21,8 @@ func Init(cfg string) error {
 	if err := c.initConfig(); err != nil {
 		return err
 	}
+	// 监控配置文件变化并热加载程序
+	c.watchConfig()
 
 	return nil
 }
@@ -32,7 +36,7 @@ func (c *Config) initConfig() error {
 	}
 	viper.SetConfigType("yaml") // 设置配置文件格式为YAML
 	viper.AutomaticEnv()        // 读取匹配的环境变量
-	//viper.SetEnvPrefix("APISERVER") // 读取环境变量的前缀为APISERVER
+	//viper.SetEnvPrefix("GOAPI") // 读取环境变量的前缀为GOAPI
 	replacer := strings.NewReplacer(".", "_")
 	viper.SetEnvKeyReplacer(replacer)
 	if err := viper.ReadInConfig(); err != nil { // viper解析配置文件
@@ -40,4 +44,12 @@ func (c *Config) initConfig() error {
 	}
 
 	return nil
+}
+
+// 监控配置文件变化并热加载程序
+func (c *Config) watchConfig() {
+	viper.WatchConfig()
+	viper.OnConfigChange(func(e fsnotify.Event) {
+		log.Printf("Config file changed: %s", e.Name)
+	})
 }
