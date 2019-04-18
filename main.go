@@ -13,6 +13,7 @@ import (
 	"github.com/golang/glog"
 	"github.com/spf13/viper"
 	"github.com/tiancai110a/go-restful/config"
+	"github.com/tiancai110a/go-restful/model"
 	"github.com/tiancai110a/go-restful/router"
 	"github.com/tiancai110a/go-rpc/protocol"
 	"github.com/tiancai110a/go-rpc/registry"
@@ -38,6 +39,10 @@ func main() {
 	if err := config.Init(""); err != nil {
 		panic(err)
 	}
+
+	// init db
+	model.DB.Init()
+	defer model.DB.Close()
 
 	var r1 registry.Registry
 	if viper.GetString("discovery.name") == "zk" {

@@ -7,3 +7,18 @@
 {"level":"INFO","timestamp":"2019-04-18 18:16:59.566","file":"go-restful/main.go:108","msg":"Waiting for the router, retry in 1 second."}
 {"level":"INFO","timestamp":"2019-04-18 18:17:00.568","file":"view/testfun.go:29","msg":"ok"}
 {"level":"INFO","timestamp":"2019-04-18 18:17:00.568","file":"go-restful/main.go:108","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-19 01:27:11.683","file":"model/init.go:32","msg":"======================================%!(EXTRA string=root, string= , string=123, string=127.0.0.1:3306, string=db_goapi)"}
+{"level":"ERROR","timestamp":"2019-04-19 01:27:11.689","file":"model/init.go:35","msg":"Database connection failed. Database name: db_goapi","data":{"error":"sql: unknown driver \"mysql\" (forgotten import?)"}}
+{"level":"INFO","timestamp":"2019-04-19 01:30:25.676","file":"model/init.go:30","msg":"======================================%!(EXTRA string=root, string= , string=123, string=127.0.0.1:3306, string=db_goapi)"}
+{"level":"INFO","timestamp":"2019-04-19 01:30:25.682","file":"model/init.go:30","msg":"======================================%!(EXTRA string=root, string= , string=123, string=127.0.0.1:3306, string=db_goapi)"}
+{"level":"INFO","timestamp":"2019-04-19 01:30:25.683","file":"go-restful/main.go:51","msg":"======================================znode [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-19 01:30:26.212","file":"view/testfun.go:29","msg":"ok"}
+{"level":"INFO","timestamp":"2019-04-19 01:30:26.212","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-19 01:30:27.213","file":"view/testfun.go:29","msg":"ok"}
+{"level":"INFO","timestamp":"2019-04-19 01:30:27.214","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-19 01:30:28.214","file":"view/testfun.go:29","msg":"ok"}
+{"level":"INFO","timestamp":"2019-04-19 01:30:28.215","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-19 01:30:29.216","file":"view/testfun.go:29","msg":"ok"}
+{"level":"INFO","timestamp":"2019-04-19 01:30:29.217","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-19 01:30:30.218","file":"view/testfun.go:29","msg":"ok"}
+{"level":"INFO","timestamp":"2019-04-19 01:30:30.218","file":"go-restful/main.go:113","msg":"Waiting for the router, retry in 1 second."}
