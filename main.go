@@ -79,6 +79,7 @@ func main() {
 		RegisterOption: registry.RegisterOption{viper.GetString("discovery.server_name")},
 		Tags:           map[string]string{"idc": viper.GetString("idc")}, //只允许机房为lf的请求，客户端取到信息会自己进行转移
 		HttpServePort:  int(port),
+		HttpServeOpen:  true,
 	}
 
 	StartServer(&servertOption)
