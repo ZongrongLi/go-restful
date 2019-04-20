@@ -99,6 +99,15 @@ func NewKVRegistry(backend store.Backend,
 		log.Fatalf("cannot create regitry path %s: %v", r.ServicePath, err)
 	}
 
+	appkeyPath := basePath + "/" + AppKey
+	if exist, _ := r.kv.Exists(appkeyPath); !exist {
+		lastUpdate := strconv.Itoa(int(time.Now().UnixNano()))
+		err := r.kv.Put(appkeyPath, []byte(lastUpdate), &store.WriteOptions{IsDir: true})
+		if err != nil {
+			glog.Info("create path before watch error,  key %v", appkeyPath)
+		}
+	}
+
 	//显式拉取一次数据
 	r.doGetServiceList()
 	go func() {
@@ -124,7 +133,7 @@ func (r *KVRegistry) watch() {
 		appkeyPath := constructServiceBasePath(r.ServicePath, r.AppKey)
 
 		//监听时先检查路径是否存在
-		if exist, _ := r.kv.Exists(appkeyPath); exist {
+		if exist, _ := r.kv.Exists(appkeyPath); !exist {
 			lastUpdate := strconv.Itoa(int(time.Now().UnixNano()))
 			err := r.kv.Put(appkeyPath, []byte(lastUpdate), &store.WriteOptions{IsDir: true})
 			if err != nil {
@@ -156,8 +165,19 @@ func (r *KVRegistry) watch() {
 				r.providersMu.RLock()
 				list := r.providers
 				r.providersMu.RUnlock()
+
 				for _, p := range latestPairs {
-					glog.Info("got provider %v", kv2Provider(p))
+					//	glog.Info("got provider %v", kv2Provider(p))
+					dup := false
+					for _, provide := range list {
+						if p.Key == provide.ProviderKey {
+							dup = true
+							break
+						}
+					}
+					if dup {
+						continue
+					}
 					list = append(list, kv2Provider(p))
 				}
 
@@ -231,7 +251,7 @@ func (r *KVRegistry) doGetServiceList() {
 
 	var list []registry.Provider
 	if err != nil {
-		glog.Info("error get service list %v", err)
+		glog.Infof("error get service list %v", err)
 		return
 	}
 
@@ -240,6 +260,13 @@ func (r *KVRegistry) doGetServiceList() {
 		list = append(list, provider)
 	}
 	glog.Info("get service list %v", list)
+
+	//及时通知客户端状态改变
+	lastUpdate := strconv.Itoa(int(time.Now().UnixNano()))
+	err = r.kv.Put(path, []byte(lastUpdate), nil)
+	if err != nil {
+		glog.Info("libkv register modify lastupdate error: %v, provider: %vs", err, list)
+	}
 	r.providersMu.Lock()
 	r.providers = list
 	r.providersMu.Unlock()

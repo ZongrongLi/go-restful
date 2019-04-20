@@ -1,6 +1,7 @@
 package main
 
 import (
+	"context"
 	"errors"
 	"net/http"
 	"strconv"
@@ -13,8 +14,8 @@ import (
 	"github.com/golang/glog"
 	"github.com/spf13/viper"
 	"github.com/tiancai110a/go-restful/config"
-	"github.com/tiancai110a/go-restful/model"
 	"github.com/tiancai110a/go-restful/router"
+	"github.com/tiancai110a/go-restful/rpc"
 	"github.com/tiancai110a/go-rpc/protocol"
 	"github.com/tiancai110a/go-rpc/registry"
 	"github.com/tiancai110a/go-rpc/registry/libkv"
@@ -33,17 +34,25 @@ func StartServer(op *server.Option) {
 		go s.Serve("tcp", viper.GetString("tcpurl"), nil)
 	}()
 }
-
+func testRPC() {
+	ctx := context.Background()
+	rpc.Create(ctx, "tiancai", "123")
+	rpc.Delete(ctx, 1234567)
+	rpc.Update(ctx, "tiancai", 0, "123")
+	rpc.Get(ctx, "tiancai")
+	rpc.List(ctx, "tiancai", 0, 10)
+}
 func main() {
+
+	// init db
+	// model.DB.Init()
+	// defer model.DB.Close()
 
 	if err := config.Init(""); err != nil {
 		panic(err)
 	}
 
-	// init db
-	model.DB.Init()
-	defer model.DB.Close()
-
+	testRPC()
 	var r1 registry.Registry
 	if viper.GetString("discovery.name") == "zk" {
 		nodes := viper.GetString("discovery.nodes")
@@ -55,7 +64,7 @@ func main() {
 			interval = 1e10
 		}
 
-		r1 = libkv.NewKVRegistry(store.ZK, viper.GetString("discovery.server_name"), viper.GetString("discovery.path"),
+		r1 = libkv.NewKVRegistry(store.ZK, viper.GetString("name"), viper.GetString("discovery.path"),
 			zknode, time.Duration(interval), nil)
 
 	} else {
@@ -76,7 +85,7 @@ func main() {
 		TransportType:  transport.TCPTransport,
 		ShutDownWait:   time.Second * 12,
 		Registry:       r1,
-		RegisterOption: registry.RegisterOption{viper.GetString("discovery.server_name")},
+		RegisterOption: registry.RegisterOption{viper.GetString("name")},
 		Tags:           map[string]string{"idc": viper.GetString("idc")}, //只允许机房为lf的请求，客户端取到信息会自己进行转移
 		HttpServePort:  int(port),
 		HttpServeOpen:  true,
@@ -84,12 +93,12 @@ func main() {
 
 	StartServer(&servertOption)
 	// Ping the server to make sure the router is working.
-	go func() {
-		if err := pingServer(); err != nil {
-			log.Fatal("The router has no response, or it might took too long to start up.", err)
-		}
-		log.Info("The router has been deployed successfully.")
-	}()
+	// go func() {
+	// 	if err := pingServer(); err != nil {
+	// 		log.Fatal("The router has no response, or it might took too long to start up.", err)
+	// 	}
+	// 	log.Info("The router has been deployed successfully.")
+	// }()
 
 	time.Sleep(time.Second * 1000)
 

@@ -7,7 +7,6 @@ idc: lf
 
 discovery:
   name: zk
-  server_name: my-app
   path: /root/lizongrong/service
   nodes: 127.0.0.1:1181,127.0.0.1:2181,127.0.0.1:3181
   updateinterval: 1e10
@@ -22,15 +21,15 @@ log:
   log_rotate_size: 1 #日志转存1m
   log_backup_count: 7
 
-read_db:
-  name: db_goapi
-  addr: 127.0.0.1:3306
-  username: root
-  password: 123
-write_db:
-  name: db_goapi
-  addr: 127.0.0.1:3306
-  username: root
-  password: 123
+# read_db:
+#   name: db_goapi
+#   addr: 127.0.0.1:3306
+#   username: root
+#   password: 123
+# write_db:
+#   name: db_goapi
+#   addr: 127.0.0.1:3306
+#   username: root
+#   password: 123
 
 
