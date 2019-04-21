@@ -1,7 +1,6 @@
 package main
 
 import (
-	"context"
 	"errors"
 	"net/http"
 	"strconv"
@@ -15,7 +14,6 @@ import (
 	"github.com/spf13/viper"
 	"github.com/tiancai110a/go-restful/config"
 	"github.com/tiancai110a/go-restful/router"
-	"github.com/tiancai110a/go-restful/rpc"
 	"github.com/tiancai110a/go-rpc/protocol"
 	"github.com/tiancai110a/go-rpc/registry"
 	"github.com/tiancai110a/go-rpc/registry/libkv"
@@ -34,25 +32,22 @@ func StartServer(op *server.Option) {
 		go s.Serve("tcp", viper.GetString("tcpurl"), nil)
 	}()
 }
-func testRPC() {
-	ctx := context.Background()
-	rpc.Create(ctx, "tiancai", "123")
-	rpc.Delete(ctx, 1234567)
-	rpc.Update(ctx, "tiancai", 0, "123")
-	rpc.Get(ctx, "tiancai")
-	rpc.List(ctx, "tiancai", 0, 10)
-}
-func main() {
 
-	// init db
-	// model.DB.Init()
-	// defer model.DB.Close()
+// func testRPC() {
+// 	ctx := context.Background()
+// 	rpc.Create(ctx, "tiancai", "123")
+// 	rpc.Delete(ctx, 1234567)
+// 	rpc.Update(ctx, "tiancai", 0, "123")
+// 	rpc.Get(ctx, "tiancai")
+// 	rpc.List(ctx, "tiancai", 0, 10)
+// }
+func main() {
 
 	if err := config.Init(""); err != nil {
 		panic(err)
 	}
 
-	testRPC()
+	//testRPC()
 	var r1 registry.Registry
 	if viper.GetString("discovery.name") == "zk" {
 		nodes := viper.GetString("discovery.nodes")

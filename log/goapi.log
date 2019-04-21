@@ -739,3 +739,193 @@
 {"level":"INFO","timestamp":"2019-04-20 16:44:02.374","file":"go-restful/main.go:60","msg":"======================================znode [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
 {"level":"INFO","timestamp":"2019-04-20 16:44:35.524","file":"client/user.go:56","msg":"client user zknode: [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
 {"level":"INFO","timestamp":"2019-04-20 16:44:35.548","file":"go-restful/main.go:60","msg":"======================================znode [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-21 17:15:47.945","file":"go-restful/main.go:55","msg":"======================================znode [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-21 17:16:27.835","file":"client/user.go:56","msg":"client user zknode: [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-21 17:26:37.122","file":"go-restful/main.go:55","msg":"======================================znode [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-21 17:26:40.222","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 17:26:40.222","file":"client/user.go:56","msg":"client user zknode: [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-21 17:33:21.891","file":"go-restful/main.go:57","msg":"======================================znode [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-21 17:33:43.079","file":"client/user.go:56","msg":"client user zknode: [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-21 17:41:35.007","file":"go-restful/main.go:55","msg":"======================================znode [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-21 17:41:37.863","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 17:41:37.863","file":"client/user.go:56","msg":"client user zknode: [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-21 17:43:39.472","file":"go-restful/main.go:55","msg":"======================================znode [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-21 17:43:44.283","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 17:43:44.284","file":"client/user.go:56","msg":"client user zknode: [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-21 17:46:26.984","file":"go-restful/main.go:55","msg":"======================================znode [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-21 17:46:30.030","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 17:46:30.030","file":"client/user.go:56","msg":"client user zknode: [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-21 17:48:21.685","file":"go-restful/main.go:55","msg":"======================================znode [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-21 17:48:24.639","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 17:48:24.639","file":"client/user.go:56","msg":"client user zknode: [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-21 17:49:40.115","file":"go-restful/main.go:55","msg":"======================================znode [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-21 17:49:44.114","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 17:49:44.114","file":"client/user.go:56","msg":"client user zknode: [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-21 17:50:55.726","file":"go-restful/main.go:55","msg":"======================================znode [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-21 17:51:05.454","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 17:51:05.455","file":"client/user.go:56","msg":"client user zknode: [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-21 17:55:07.447","file":"go-restful/main.go:55","msg":"======================================znode [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-21 17:55:10.249","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 17:55:10.249","file":"client/user.go:56","msg":"client user zknode: [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-21 17:58:43.287","file":"go-restful/main.go:55","msg":"======================================znode [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-21 17:58:58.322","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 17:58:58.322","file":"client/user.go:56","msg":"client user zknode: [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-21 18:00:26.481","file":"go-restful/main.go:55","msg":"======================================znode [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-21 18:00:31.585","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 18:00:31.586","file":"client/user.go:56","msg":"client user zknode: [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-21 18:02:44.208","file":"go-restful/main.go:55","msg":"======================================znode [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-21 18:02:48.717","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 18:02:48.718","file":"client/user.go:56","msg":"client user zknode: [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-21 18:03:40.405","file":"go-restful/main.go:55","msg":"======================================znode [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-21 18:03:43.460","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 18:03:43.461","file":"client/user.go:56","msg":"client user zknode: [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-21 18:06:12.712","file":"go-restful/main.go:55","msg":"======================================znode [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-21 18:06:18.061","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 18:06:18.061","file":"client/user.go:56","msg":"client user zknode: [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-21 18:07:02.605","file":"go-restful/main.go:55","msg":"======================================znode [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-21 18:07:04.394","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 18:07:04.394","file":"client/user.go:56","msg":"client user zknode: [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-21 18:07:08.132","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 18:07:08.945","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 18:07:09.659","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 18:07:10.213","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 18:07:10.778","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 18:07:11.313","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 18:07:12.428","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 18:07:13.181","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 18:07:13.865","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 18:07:14.791","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 18:07:15.485","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 18:07:17.350","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 18:07:18.652","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 18:07:19.443","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 18:07:20.180","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 18:07:20.967","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 18:07:24.468","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 18:07:25.150","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 18:07:25.995","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 18:07:26.811","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 18:07:27.607","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 18:07:28.379","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 18:07:29.227","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 18:07:30.128","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 18:07:31.306","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 18:07:32.407","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 18:07:33.119","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 18:07:33.830","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 18:07:34.493","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 18:07:41.679","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 18:07:43.717","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 18:07:44.631","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 18:07:45.403","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 18:07:46.155","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 18:07:46.957","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 18:07:47.844","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 18:07:48.822","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 18:07:49.661","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 18:07:50.448","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 18:08:01.746","file":"go-restful/main.go:55","msg":"======================================znode [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-21 18:08:05.114","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 18:08:05.115","file":"client/user.go:56","msg":"client user zknode: [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-21 18:08:06.156","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 18:08:06.953","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 18:08:07.683","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 18:08:08.427","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 18:08:09.116","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 18:08:09.814","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 18:08:10.585","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 18:08:11.299","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 18:08:12.401","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 18:08:13.285","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 18:08:14.155","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 18:08:15.924","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 18:08:17.011","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 18:08:17.887","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 18:08:23.040","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 18:08:23.974","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 18:08:24.994","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 18:08:25.748","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 18:08:26.566","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 18:08:27.717","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 18:08:28.729","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 18:08:30.971","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 18:08:32.765","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 18:08:33.586","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 18:08:34.265","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 18:08:34.917","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 18:10:26.194","file":"go-restful/main.go:55","msg":"======================================znode [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-21 18:10:29.729","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 18:10:29.729","file":"client/user.go:56","msg":"client user zknode: [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-21 18:14:36.942","file":"go-restful/main.go:55","msg":"======================================znode [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-21 18:14:39.887","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 18:14:39.887","file":"client/user.go:56","msg":"client user zknode: [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-21 18:14:47.327","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 18:14:48.154","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 18:14:48.830","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 18:14:49.436","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 18:14:50.112","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 18:14:50.769","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 18:14:51.388","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 18:14:52.194","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 18:14:56.985","file":"go-restful/main.go:55","msg":"======================================znode [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-21 18:15:03.102","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 18:15:03.102","file":"client/user.go:56","msg":"client user zknode: [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-21 18:15:03.909","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 18:15:04.717","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 18:15:05.554","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 18:15:06.312","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 18:15:07.027","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 18:15:09.968","file":"view/user.go:90","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 18:16:03.137","file":"go-restful/main.go:55","msg":"======================================znode [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-21 18:25:26.869","file":"view/user.go:90","msg":"===============================xiaohong"}
+{"level":"INFO","timestamp":"2019-04-21 18:25:26.870","file":"client/user.go:56","msg":"client user zknode: [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-21 18:25:46.178","file":"view/user.go:90","msg":"===============================xiaohong"}
+{"level":"INFO","timestamp":"2019-04-21 18:26:13.788","file":"view/user.go:90","msg":"===============================xiaohong"}
+{"level":"INFO","timestamp":"2019-04-21 18:31:28.576","file":"go-restful/main.go:55","msg":"======================================znode [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-21 18:34:43.102","file":"go-restful/main.go:55","msg":"======================================znode [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-21 18:34:49.141","file":"client/user.go:56","msg":"client user zknode: [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-21 18:47:24.616","file":"go-restful/main.go:55","msg":"======================================znode [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-21 18:47:29.026","file":"client/user.go:56","msg":"client user zknode: [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-21 18:56:10.562","file":"view/user.go:98","msg":"===============================xiaohong"}
+{"level":"INFO","timestamp":"2019-04-21 18:56:32.822","file":"view/user.go:98","msg":"===============================xiaohong"}
+{"level":"INFO","timestamp":"2019-04-21 18:56:46.337","file":"view/user.go:98","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 18:56:55.774","file":"go-restful/main.go:55","msg":"======================================znode [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-21 18:56:57.632","file":"view/user.go:98","msg":"===============================admin"}
+{"level":"INFO","timestamp":"2019-04-21 18:56:57.632","file":"client/user.go:56","msg":"client user zknode: [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-21 18:57:06.385","file":"view/user.go:98","msg":"===============================xiaohong"}
+{"level":"INFO","timestamp":"2019-04-21 18:57:08.556","file":"view/user.go:98","msg":"===============================xiaohong"}
+{"level":"INFO","timestamp":"2019-04-21 18:57:09.600","file":"view/user.go:98","msg":"===============================xiaohong"}
+{"level":"INFO","timestamp":"2019-04-21 18:57:10.750","file":"view/user.go:98","msg":"===============================xiaohong"}
+{"level":"INFO","timestamp":"2019-04-21 19:04:14.002","file":"go-restful/main.go:55","msg":"======================================znode [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-21 19:04:18.372","file":"view/user.go:98","msg":"===============================xiaohong"}
+{"level":"INFO","timestamp":"2019-04-21 19:04:18.372","file":"client/user.go:56","msg":"client user zknode: [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-21 19:06:43.693","file":"go-restful/main.go:55","msg":"======================================znode [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-21 19:06:46.665","file":"view/user.go:98","msg":"===============================xiaohong"}
+{"level":"INFO","timestamp":"2019-04-21 19:06:46.665","file":"client/user.go:56","msg":"client user zknode: [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-21 19:16:55.554","file":"go-restful/main.go:55","msg":"======================================znode [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-21 19:17:02.351","file":"view/user.go:98","msg":"===============================xiaohong"}
+{"level":"INFO","timestamp":"2019-04-21 19:17:02.352","file":"client/user.go:56","msg":"client user zknode: [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-21 19:18:03.858","file":"go-restful/main.go:55","msg":"======================================znode [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-21 19:18:08.359","file":"view/user.go:98","msg":"===============================xiaohong"}
+{"level":"INFO","timestamp":"2019-04-21 19:18:08.359","file":"client/user.go:56","msg":"client user zknode: [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-21 19:18:59.712","file":"go-restful/main.go:55","msg":"======================================znode [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-21 19:19:03.974","file":"view/user.go:98","msg":"===============================xiaohong"}
+{"level":"INFO","timestamp":"2019-04-21 19:19:03.976","file":"client/user.go:56","msg":"client user zknode: [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-21 19:22:14.265","file":"go-restful/main.go:55","msg":"======================================znode [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-21 19:22:17.010","file":"view/user.go:98","msg":"===============================xiaohong"}
+{"level":"INFO","timestamp":"2019-04-21 19:22:17.010","file":"client/user.go:56","msg":"client user zknode: [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-21 19:23:10.422","file":"view/user.go:98","msg":"===============================xiaohong"}
+{"level":"INFO","timestamp":"2019-04-21 19:23:15.909","file":"view/user.go:98","msg":"===============================xiaohong"}
+{"level":"INFO","timestamp":"2019-04-21 19:23:52.214","file":"view/user.go:98","msg":"===============================xiaohong"}
+{"level":"INFO","timestamp":"2019-04-21 19:27:02.243","file":"go-restful/main.go:55","msg":"======================================znode [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-21 19:27:05.453","file":"client/user.go:56","msg":"client user zknode: [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-21 19:29:14.842","file":"view/user.go:98","msg":"===============================xiaohong"}
+{"level":"INFO","timestamp":"2019-04-21 19:37:52.270","file":"go-restful/main.go:55","msg":"======================================znode [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-21 19:37:56.486","file":"client/user.go:56","msg":"client user zknode: [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-21 19:38:24.955","file":"view/user.go:98","msg":"===============================xiaohong"}
+{"level":"INFO","timestamp":"2019-04-21 19:41:53.131","file":"go-restful/main.go:55","msg":"======================================znode [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-21 19:51:32.777","file":"go-restful/main.go:55","msg":"======================================znode [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-21 19:51:36.016","file":"view/user.go:85","msg":"wrong para"}
+{"level":"INFO","timestamp":"2019-04-21 20:01:38.626","file":"go-restful/main.go:55","msg":"======================================znode [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-21 20:01:45.491","file":"client/user.go:56","msg":"client user zknode: [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-21 20:03:50.659","file":"go-restful/main.go:55","msg":"======================================znode [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}

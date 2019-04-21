@@ -29,7 +29,7 @@ func NewUserClient(appkey string) client.SGClient {
 	op.AppKey = appkey
 	op.RequestTimeout = time.Millisecond * 100
 	op.DialTimeout = time.Millisecond * 100
-	op.HeartbeatInterval = time.Second
+	op.HeartbeatInterval = time.Second * 20
 	op.HeartbeatDegradeThreshold = 5
 	op.Heartbeat = true
 	op.SerializeType = protocol.SerializeTypeMsgpack

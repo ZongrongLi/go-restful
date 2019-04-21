@@ -32,7 +32,7 @@ func HealthCheck(ctx context.Context, resp *service.Resp) {
 	resp.Add("status", message)
 	errnum := 0
 	errnum, resp.ErrString = errno.DecodeErr(err)
-	resp.Errcode = (service.HTTPErrCode)(errnum)
+	resp.Statuscode = errnum
 }
 
 // DiskCheck checks the disk usage.
