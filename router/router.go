@@ -14,6 +14,8 @@ func Load(s server.RPCServer) {
 	s.Use(middleware.NoCache)
 	s.Use(middleware.Options)
 	s.Use(middleware.Secure)
+	s.Use(middleware.RequestId)
+	s.Use(middleware.Logging)
 
 	// The health check handlers
 	svcd := s.Group(service.GET, "/view")
