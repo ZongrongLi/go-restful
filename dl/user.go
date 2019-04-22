@@ -49,3 +49,13 @@ type UpdateRequest struct {
 type UpdateResponse struct {
 	Base
 }
+
+type LoginRequest struct {
+	Username string
+	Password string
+}
+
+type LoginResponse struct {
+	Token string
+	Base
+}

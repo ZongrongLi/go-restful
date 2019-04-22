@@ -25,7 +25,7 @@ const Groupname = "groupname"
 
 type RespBase struct {
 	Statuscode int
-	ErrString  string
+	Message    string
 }
 
 type Resp struct {
@@ -40,7 +40,7 @@ func (r *Resp) Add(key string, value string) {
 func NewResp() Resp {
 	r := Resp{}
 	r.Statuscode = 0
-	r.ErrString = "ok"
+	r.Message = "ok"
 	m := make(map[string]string)
 	r.Data = m
 	return r
@@ -126,9 +126,7 @@ func (t RouterService) GetRouter(ctx context.Context, req *RouterRequest, res *R
 		return errors.New("method is not registed")
 	}
 	r := NewResp()
-
 	realfun(ctx, &r)
-
 	// if r.RespBase.Errcode != HTTPErrCodeOK {
 	// 	r.RespBase.Errcode = HTTPErrCodeFailed
 	// 	r.RespBase.ErrString = "就是错了呀"

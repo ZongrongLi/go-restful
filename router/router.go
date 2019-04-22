@@ -14,8 +14,6 @@ func Load(s server.RPCServer) {
 	s.Use(middleware.NoCache)
 	s.Use(middleware.Options)
 	s.Use(middleware.Secure)
-	s.Use(middleware.RequestId)
-	s.Use(middleware.Logging)
 
 	// The health check handlers
 	svcd := s.Group(service.GET, "/view")
@@ -33,6 +31,17 @@ func Load(s server.RPCServer) {
 		svcd.Route("/update", view.Update)
 		svcd.Route("/get", view.Get)
 		svcd.Route("/list", view.GetList)
+	}
+
+	//群组中间件
+	s.UseGroup("/user", middleware.RequestId)
+	s.UseGroup("/user", middleware.Logging)
+	s.UseGroup("/user", middleware.AuthMiddleware)
+
+	svcd = s.Group(service.POST, "/")
+	{
+		svcd.Route("/login", view.Login)
+
 	}
 
 	return

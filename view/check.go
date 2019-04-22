@@ -31,7 +31,7 @@ func HealthCheck(ctx context.Context, resp *service.Resp) {
 	log.Info("ok")
 	resp.Add("status", message)
 	errnum := 0
-	errnum, resp.ErrString = errno.DecodeErr(err)
+	errnum, resp.Message = errno.DecodeErr(err)
 	resp.Statuscode = errnum
 }
 

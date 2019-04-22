@@ -931,3 +931,40 @@
 {"level":"INFO","timestamp":"2019-04-21 20:03:50.659","file":"go-restful/main.go:55","msg":"======================================znode [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
 {"level":"INFO","timestamp":"2019-04-21 22:44:19.879","file":"go-restful/main.go:55","msg":"======================================znode [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
 {"level":"INFO","timestamp":"2019-04-21 22:44:27.164","file":"client/user.go:56","msg":"client user zknode: [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-22 23:30:43.868","file":"go-restful/main.go:55","msg":"======================================znode [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-22 23:30:51.739","file":"go-restful/main.go:55","msg":"======================================znode [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-22 23:34:57.325","file":"go-restful/main.go:55","msg":"======================================znode [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-22 23:36:11.962","file":"go-restful/main.go:55","msg":"======================================znode [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-22 23:37:09.778","file":"go-restful/main.go:55","msg":"======================================znode [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-22 23:37:13.455","file":"view/user.go:154","msg":"param error"}
+{"level":"INFO","timestamp":"2019-04-22 23:44:41.870","file":"view/user.go:154","msg":"param error"}
+{"level":"INFO","timestamp":"2019-04-22 23:45:47.255","file":"go-restful/main.go:55","msg":"======================================znode [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-22 23:45:50.346","file":"view/user.go:154","msg":"param error"}
+{"level":"INFO","timestamp":"2019-04-22 23:50:32.325","file":"go-restful/main.go:55","msg":"======================================znode [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"ERROR","timestamp":"2019-04-22 23:50:35.149","file":"view/user.go:182","msg":"wrong para"}
+{"level":"ERROR","timestamp":"2019-04-22 23:50:47.299","file":"view/user.go:182","msg":"wrong para"}
+{"level":"INFO","timestamp":"2019-04-22 23:50:52.084","file":"view/user.go:154","msg":"param error"}
+{"level":"INFO","timestamp":"2019-04-23 00:03:20.595","file":"go-restful/main.go:55","msg":"======================================znode [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-23 00:03:27.585","file":"view/user.go:154","msg":"param error"}
+{"level":"INFO","timestamp":"2019-04-23 00:04:59.072","file":"go-restful/main.go:55","msg":"======================================znode [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-23 00:05:02.747","file":"view/user.go:154","msg":"param error"}
+{"level":"INFO","timestamp":"2019-04-23 00:05:05.428","file":"view/user.go:154","msg":"param error"}
+{"level":"INFO","timestamp":"2019-04-23 00:05:14.420","file":"go-restful/main.go:55","msg":"======================================znode [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-23 00:07:54.555","file":"go-restful/main.go:55","msg":"======================================znode [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-23 00:08:46.189","file":"go-restful/main.go:55","msg":"======================================znode [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-23 00:10:50.501","file":"go-restful/main.go:55","msg":"======================================znode [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-23 00:14:06.274","file":"go-restful/main.go:55","msg":"======================================znode [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-23 01:15:54.024","file":"go-restful/main.go:55","msg":"======================================znode [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-23 01:17:40.937","file":"go-restful/main.go:55","msg":"======================================znode [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-23 01:18:39.459","file":"go-restful/main.go:55","msg":"======================================znode [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-23 01:24:47.984","file":"go-restful/main.go:55","msg":"======================================znode [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-23 01:24:55.255","file":"client/user.go:56","msg":"client user zknode: [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-23 01:28:18.848","file":"go-restful/main.go:55","msg":"======================================znode [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-23 01:28:22.073","file":"client/user.go:56","msg":"client user zknode: [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-23 01:28:50.031","file":"go-restful/main.go:55","msg":"======================================znode [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-23 01:28:52.597","file":"client/user.go:56","msg":"client user zknode: [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-23 01:29:56.236","file":"go-restful/main.go:55","msg":"======================================znode [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-23 01:29:59.030","file":"client/user.go:56","msg":"client user zknode: [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-23 01:31:25.395","file":"view/user.go:156","msg":"param error"}
+{"level":"INFO","timestamp":"2019-04-23 01:31:33.547","file":"view/user.go:156","msg":"param error"}
+{"level":"INFO","timestamp":"2019-04-23 01:31:34.536","file":"view/user.go:156","msg":"param error"}

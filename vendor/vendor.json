@@ -13,6 +13,12 @@
 			"revisionTime": "2018-12-12T23:48:31Z"
 		},
 		{
+			"checksumSHA1": "blOHP3HPYU+IeV6yWCalQuuM+zE=",
+			"path": "github.com/dgrijalva/jwt-go",
+			"revision": "3af4c746e1c248ee8491a3e0c6f7a9cd831e95f8",
+			"revisionTime": "2018-09-21T17:23:15Z"
+		},
+		{
 			"checksumSHA1": "nZxHZRxlUe66KtMbAYDamutoo6M=",
 			"path": "github.com/docker/libkv",
 			"revision": "458977154600b9f23984d9f4b82e79570b5ae12b",
@@ -53,6 +59,12 @@
 			"path": "github.com/go-sql-driver/mysql",
 			"revision": "578c4c8066964679ef44f45de2b6c7e811cc665e",
 			"revisionTime": "2019-04-10T03:04:54Z"
+		},
+		{
+			"checksumSHA1": "QdLDffDTptE6fjfrIevrmCgnnug=",
+			"path": "github.com/golang/crypto/bcrypt",
+			"revision": "df01cb2cc480549d72034218dd98bf97671450ac",
+			"revisionTime": "2019-04-17T08:53:58Z"
 		},
 		{
 			"checksumSHA1": "HmbftipkadrLlCfzzVQ+iFHbl6g=",
@@ -289,82 +301,82 @@
 			"revisionTime": "2019-04-08T14:06:45Z"
 		},
 		{
-			"checksumSHA1": "dOsURDyN51UdOiWKx+rbZhMqAGo=",
+			"checksumSHA1": "Nmd/dFWzKz6YZd6IkSf3JQRLUj8=",
 			"path": "github.com/tiancai110a/go-rpc",
-			"revision": "58ebdcb08071d7e8769040ca3bc3c5b7c5107b58",
-			"revisionTime": "2019-04-21T08:45:47Z"
+			"revision": "c79b4a51bfc79361685e02fde4ef7ae1dfc24768",
+			"revisionTime": "2019-04-22T14:37:23Z"
 		},
 		{
-			"checksumSHA1": "kBfyMblmSW8/eFwMgtj5mda4bMU=",
+			"checksumSHA1": "dzmME5/FG4dHvvZrqNoE5bPxEVo=",
 			"path": "github.com/tiancai110a/go-rpc/client",
-			"revision": "58ebdcb08071d7e8769040ca3bc3c5b7c5107b58",
-			"revisionTime": "2019-04-21T08:45:47Z"
+			"revision": "c79b4a51bfc79361685e02fde4ef7ae1dfc24768",
+			"revisionTime": "2019-04-22T14:37:23Z"
 		},
 		{
 			"checksumSHA1": "vE80VfyqcAmY48omNiQ07kK0qHU=",
 			"path": "github.com/tiancai110a/go-rpc/protocol",
-			"revision": "58ebdcb08071d7e8769040ca3bc3c5b7c5107b58",
-			"revisionTime": "2019-04-21T08:45:47Z"
+			"revision": "c79b4a51bfc79361685e02fde4ef7ae1dfc24768",
+			"revisionTime": "2019-04-22T14:37:23Z"
 		},
 		{
 			"checksumSHA1": "c4P7M8bMmjl5mDDJMz1Wg7mkpT4=",
 			"path": "github.com/tiancai110a/go-rpc/ratelimit",
-			"revision": "58ebdcb08071d7e8769040ca3bc3c5b7c5107b58",
-			"revisionTime": "2019-04-21T08:45:47Z"
+			"revision": "c79b4a51bfc79361685e02fde4ef7ae1dfc24768",
+			"revisionTime": "2019-04-22T14:37:23Z"
 		},
 		{
 			"checksumSHA1": "NInCL5UzUMW1NXwXkUjl0vUHHRc=",
 			"path": "github.com/tiancai110a/go-rpc/registry",
-			"revision": "58ebdcb08071d7e8769040ca3bc3c5b7c5107b58",
-			"revisionTime": "2019-04-21T08:45:47Z"
+			"revision": "c79b4a51bfc79361685e02fde4ef7ae1dfc24768",
+			"revisionTime": "2019-04-22T14:37:23Z"
 		},
 		{
 			"checksumSHA1": "00pCfOFfbyS/x1L1cLQrmRWYxH0=",
 			"path": "github.com/tiancai110a/go-rpc/registry/libkv",
-			"revision": "58ebdcb08071d7e8769040ca3bc3c5b7c5107b58",
-			"revisionTime": "2019-04-21T08:45:47Z"
+			"revision": "c79b4a51bfc79361685e02fde4ef7ae1dfc24768",
+			"revisionTime": "2019-04-22T14:37:23Z"
 		},
 		{
 			"checksumSHA1": "C77aHYPbwHPu9glSctLIxOIqKcc=",
 			"path": "github.com/tiancai110a/go-rpc/selector",
-			"revision": "58ebdcb08071d7e8769040ca3bc3c5b7c5107b58",
-			"revisionTime": "2019-04-21T08:45:47Z"
+			"revision": "c79b4a51bfc79361685e02fde4ef7ae1dfc24768",
+			"revisionTime": "2019-04-22T14:37:23Z"
 		},
 		{
-			"checksumSHA1": "8NBUWAteQoJgayVMt1cZbgAqQrI=",
+			"checksumSHA1": "VsBAmgtbqRGm9/qtifvf2glOTm4=",
 			"path": "github.com/tiancai110a/go-rpc/server",
-			"revision": "58ebdcb08071d7e8769040ca3bc3c5b7c5107b58",
-			"revisionTime": "2019-04-21T08:45:47Z"
+			"revision": "c79b4a51bfc79361685e02fde4ef7ae1dfc24768",
+			"revisionTime": "2019-04-22T14:37:23Z"
 		},
 		{
-			"checksumSHA1": "9fqAtdnwxIReVXUh+JAKXkITNes=",
+			"checksumSHA1": "tUeZECHKZG8PAwTjr5b/qc0lXaM=",
 			"path": "github.com/tiancai110a/go-rpc/service",
-			"revision": "58ebdcb08071d7e8769040ca3bc3c5b7c5107b58",
-			"revisionTime": "2019-04-21T08:45:47Z"
+			"revision": "c79b4a51bfc79361685e02fde4ef7ae1dfc24768",
+			"revisionTime": "2019-04-22T14:37:23Z"
 		},
 		{
 			"checksumSHA1": "nJJTRbHvgrodeYurP4pNqxgeTAg=",
 			"path": "github.com/tiancai110a/go-rpc/share",
-			"revision": "58ebdcb08071d7e8769040ca3bc3c5b7c5107b58",
-			"revisionTime": "2019-04-21T08:45:47Z"
+			"revision": "c79b4a51bfc79361685e02fde4ef7ae1dfc24768",
+			"revisionTime": "2019-04-22T14:37:23Z"
 		},
 		{
 			"checksumSHA1": "bHoDzNcmIlSa0bhGc1wO0ED63JE=",
 			"path": "github.com/tiancai110a/go-rpc/share/metadata",
-			"revision": "58ebdcb08071d7e8769040ca3bc3c5b7c5107b58",
-			"revisionTime": "2019-04-21T08:45:47Z"
+			"revision": "c79b4a51bfc79361685e02fde4ef7ae1dfc24768",
+			"revisionTime": "2019-04-22T14:37:23Z"
 		},
 		{
 			"checksumSHA1": "Tu8lpJZ22/cwlLezCGyNl9akHKk=",
 			"path": "github.com/tiancai110a/go-rpc/share/trace",
-			"revision": "58ebdcb08071d7e8769040ca3bc3c5b7c5107b58",
-			"revisionTime": "2019-04-21T08:45:47Z"
+			"revision": "c79b4a51bfc79361685e02fde4ef7ae1dfc24768",
+			"revisionTime": "2019-04-22T14:37:23Z"
 		},
 		{
 			"checksumSHA1": "Dy7izxQD+ABqwr1jq54hqt6PxyE=",
 			"path": "github.com/tiancai110a/go-rpc/transport",
-			"revision": "58ebdcb08071d7e8769040ca3bc3c5b7c5107b58",
-			"revisionTime": "2019-04-21T08:45:47Z"
+			"revision": "c79b4a51bfc79361685e02fde4ef7ae1dfc24768",
+			"revisionTime": "2019-04-22T14:37:23Z"
 		},
 		{
 			"checksumSHA1": "F0xoSwu6bNb9uX0OUOL/sSkm//8=",
@@ -377,6 +389,12 @@
 			"path": "github.com/vmihailenco/msgpack/codes",
 			"revision": "c2fc210f30a2aca9db880cc017a92c169c999253",
 			"revisionTime": "2019-03-27T14:08:13Z"
+		},
+		{
+			"checksumSHA1": "q+XI9g44wd9mYvf3S5Wo8YZjAus=",
+			"path": "golang.org/x/crypto/blowfish",
+			"revision": "df01cb2cc480549d72034218dd98bf97671450ac",
+			"revisionTime": "2019-04-17T08:53:58Z"
 		},
 		{
 			"path": "golang.org/x/sys/windows",
