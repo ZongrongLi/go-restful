@@ -67,12 +67,13 @@ func main() {
 		return
 	}
 
-	port, err := strconv.ParseInt(viper.GetString("port"), 10, 64)
+	port, err := strconv.ParseInt(viper.GetString("httpport"), 10, 64)
 	if err != nil {
 		log.Infof("parse port err: %s", err)
 		return
 	}
 
+	bhttps := viper.GetBool("https")
 	servertOption := server.Option{
 		ProtocolType:   protocol.Default,
 		SerializeType:  protocol.SerializeTypeMsgpack,
@@ -84,6 +85,12 @@ func main() {
 		Tags:           map[string]string{"idc": viper.GetString("idc")}, //只允许机房为lf的请求，客户端取到信息会自己进行转移
 		HttpServePort:  int(port),
 		HttpServeOpen:  true,
+		HttpsServer:    bhttps,
+	}
+
+	if bhttps {
+		servertOption.Sslcert = viper.GetString("tls.cert")
+		servertOption.Sslkey = viper.GetString("tls.key")
 	}
 
 	StartServer(&servertOption)

@@ -968,3 +968,10 @@
 {"level":"INFO","timestamp":"2019-04-23 01:31:25.395","file":"view/user.go:156","msg":"param error"}
 {"level":"INFO","timestamp":"2019-04-23 01:31:33.547","file":"view/user.go:156","msg":"param error"}
 {"level":"INFO","timestamp":"2019-04-23 01:31:34.536","file":"view/user.go:156","msg":"param error"}
+{"level":"INFO","timestamp":"2019-04-23 16:33:56.482","file":"go-restful/main.go:55","msg":"======================================znode [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-23 16:35:47.949","file":"go-restful/main.go:55","msg":"======================================znode [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-23 16:36:19.834","file":"go-restful/main.go:55","msg":"======================================znode [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-23 16:41:08.567","file":"go-restful/main.go:55","msg":"======================================znode [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-23 16:47:54.927","file":"client/user.go:56","msg":"client user zknode: [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-23 16:48:21.165","file":"go-restful/main.go:55","msg":"======================================znode [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
+{"level":"INFO","timestamp":"2019-04-23 16:48:27.013","file":"client/user.go:56","msg":"client user zknode: [127.0.0.1:1181 127.0.0.1:2181 127.0.0.1:3181]"}
