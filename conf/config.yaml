@@ -13,7 +13,7 @@ discovery:
   name: zk
   path: /root/lizongrong/service
   nodes: 127.0.0.1:1181,127.0.0.1:2181,127.0.0.1:3181
-  updateinterval: 1e10
+  updateinterval: 1e9
 
 log:
   writers: file,stdout
